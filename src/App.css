@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(#78B3CE,white);
+  /* width: 500px; */
+}
+
+
+.todo-input{
+  width: 270px;
+  height: 40px;
+}
+
+.todo-btn{
+  height: 40px;
+  width: 70px;
+}
+
+.together{
+  width: 340px;
+  height: 40px;
+  display: flex;
+
+   margin: auto;
+   border: #2b4856 solid 4px;
+   border-radius: 5px;
+   gap: 10px;
+   order: 500;
+   padding: 10px;
+   background-image:linear-gradient(270deg,  #F0C1E1,#78B3CE);
+   /* flex-basis: 80%; */
+   /* transform: translate(-50%,-50%); */
+}
+
+.together > input{
+  flex-basis: 80%;
+  border-radius: 5px;
+}
+
+.together > button {
+  flex-basis: 20%;
+  background-color:#78B3CE;
+  border-radius: 5px;
+  color: rgb(234, 218, 218);
+}
+
+html{
+  background-image: linear-gradient(#78B3CE,white);
+}
+
+
+.white{
+  color: rgb(236, 220, 220);
+}
+
+.listFormed{
+  width: 340px;
+  height: 40px;
+  list-style: none;
+  gap: 10px;
+  margin: auto;
+  margin-top: 5px;
+  padding: 2px;
+  margin-bottom: 15px;
+  /* padding-top: 15px; */
+}
+.listFormed li{
+
+  text-align: left;
+
+  padding: 5px;
+
+  background-image: linear-gradient(200deg,#78B3CE,#C5D3E8);
+
+  position: relative;
+  font-size: 18px;
+}
+
+.listFormed li span{
+  float: right;
+  cursor: pointer;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: #3590ba;
+}
+
+.listFormed li p{
+  cursor: pointer;
+}
+
+
+
